@@ -63,6 +63,6 @@ def main():
 
 if __name__ == '__main__':
 	twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
-    main()
+	main()
 
 
