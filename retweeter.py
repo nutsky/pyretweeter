@@ -26,6 +26,7 @@ def get_hashtag(trend_setter):
 	global HASHTAG
 	user_ht = None
 	print 'checking %s hashtag' % trend_setter
+	#look for the last tweet of trend setter
 	user_tl = twitter.get_user_timeline(screen_name=trend_setter, count=1,include_rts=False)
 	#look for hashtag
 	for tweet in user_tl:
